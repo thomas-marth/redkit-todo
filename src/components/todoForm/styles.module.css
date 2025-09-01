@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.todoTitle {
+  padding: 6px 8px;
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 4px;
+}
+
+.submitTodoBtn {
+  height: 30px;
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 4px;
+  color: #fff;
+  background-color: #28a645;
+  cursor: pointer;
+}
