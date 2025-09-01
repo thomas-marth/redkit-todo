@@ -9,6 +9,7 @@
   padding: 6px 8px;
   border: 1px solid rgb(157, 157, 157);
   border-radius: 4px;
+  outline: none;
 }
 
 .submitTodoBtn {
@@ -18,4 +19,9 @@
   color: #fff;
   background-color: #28a645;
   cursor: pointer;
+}
+
+.submitTodoBtn:active {
+  background-color: #fff;
+  color: #28a645;
 }
